@@ -1,0 +1,55 @@
+body {
+  background-color: rgb(193, 218, 240);
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background-color: rgb(169, 202, 231);
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 300px;
+}
+
+h2 {
+  color: blue;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  margin-top: 15px;
+}
+
+input {
+  width: 90%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  background-color: rgb(107, 103, 159);
+  color: rgb(4, 4, 91);
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+button:hover {
+  background-color: rgb(179, 179, 244);
+}
+
+#resultado {
+  font-size: 20px;
+  margin-top: 20px;
+  color: green;
+}
